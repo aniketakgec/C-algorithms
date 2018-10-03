@@ -28,19 +28,14 @@ long square=(long )i*i;
          int second= square-(pow(10,d1)*first);
     
     
-    int sq1=second;
-    while(sq1!=0){
-        sq1=sq1/10;
-        d2++;
-    }
-    int x1=second/pow(10,d2-1);
-    if(x1!=0)
-{   if((first+second)==i)
+ 
+    
+   if((first+second)==i)
     {   printf("%d ",i);
 c++;
     }
  
-}
+
        
 } 
     if(c==0)
